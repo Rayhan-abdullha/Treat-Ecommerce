@@ -1,0 +1,36 @@
+.categoryDesc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.card:hover {
+  background-color: aliceblue;
+  transition: 0.3s;
+}
+div#root {
+  position: absolute;
+  top: 125px;
+  left: 0;
+  right: 0;
+}
+p.MuiTypography-root.MuiTypography-body1.css-ahj2mt-MuiTypography-root a {
+  font-size: 18px;
+}
+
+p.MuiTypography-root.MuiTypography-body1.css-ahj2mt-MuiTypography-root a:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 992px) {
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.categoryCard.css-1xypx7g-MuiPaper-root-MuiCard-root {
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 762px) {
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.categoryCard.css-1xypx7g-MuiPaper-root-MuiCard-root {
+    max-width: 500px;
+  }
+}
